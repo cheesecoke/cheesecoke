@@ -1,0 +1,48 @@
+@use './home';
+@use './gradient';
+* {
+    transition: all 0.25s ease-out;
+}
+
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace;
+    background-color: #222;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    opacity: 0.4;
+    padding: 2em;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
