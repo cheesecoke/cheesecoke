@@ -1,15 +1,6 @@
-@import "./shimmer.scss";
 /* Home */
 #header .nameHover {
     display: none;
-}
-
-#header:hover .nameDefault {
-    display: none;
-}
-
-#header:hover .nameHover {
-    display: inline;
 }
 
 .content-wrapper {
@@ -72,7 +63,7 @@
         }
 
         h2 {
-            color: red;
+            color: #37eba9;
             position: relative;
             opacity: 0;
             left: 60px;
