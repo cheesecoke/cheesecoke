@@ -1,5 +1,6 @@
 @use './home';
 @use './gradient';
+@use './contact';
 * {
     transition: all 0.25s ease-out;
 }
@@ -15,12 +16,9 @@ p {
 body {
     font-family: monospace;
     background-color: #222;
-    position: absolute;
-    inset: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 header {

@@ -1,29 +1,83 @@
-<!-- contact.html -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Contact - Your Website</title>
-</head>
-<body>
-
-    <header>
-        <h1>Contact Information</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Get in touch with Chase Cole - Software developer. Email: chasewcole@gmail.com" />
+    <meta name="author" content="Chase Cole" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Contact - Chase Cole" />
+    <meta property="og:description" content="Get in touch with Chase Cole" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.cheesecoke.com/pages/contact.html" />
+    
+    <link rel="stylesheet" href="../output.css" />
+    <title>Contact - Chase Cole</title>
+  </head>
+  <body>
+    <header id="header">
+      <span class="nameDefault shimmer">Chase Cole</span>
     </header>
-
-    <main>
-        <section>
-            <h2>Contact</h2>
-            <p>Under Construction</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
+    
+    <div class="content-wrapper">
+      <div class="callout">
+        <h2>Get In Touch</h2>
+        
+        <div class="contact-content">
+          <p class="contact-intro">
+            I'd love to hear from you! Feel free to reach out via email or connect with me on GitHub.
+          </p>
+          
+          <div class="contact-methods">
+            <a href="mailto:chasewcole@gmail.com" class="contact-button primary">
+              <span class="contact-icon">✉️</span>
+              <div class="contact-button-text">
+                <span class="contact-label">Email</span>
+                <span class="contact-value">chasewcole@gmail.com</span>
+              </div>
+            </a>
+            
+            <a href="https://github.com/chasecole" target="_blank" rel="noopener noreferrer" class="contact-button">
+              <span class="contact-icon">⚡</span>
+              <div class="contact-button-text">
+                <span class="contact-label">GitHub</span>
+                <span class="contact-value">@chasecole</span>
+              </div>
+            </a>
+            
+            <a href="/" class="contact-button">
+              <span class="contact-icon">🏠</span>
+              <div class="contact-button-text">
+                <span class="contact-label">Back to Home</span>
+                <span class="contact-value">View Projects</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <footer class="site-footer">
+      <div class="social-links">
+        <a href="https://github.com/chasecole" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+          <span class="social-icon">⚡</span> GitHub
+        </a>
+        <a href="mailto:chasewcole@gmail.com" aria-label="Email Chase Cole">
+          <span class="social-icon">✉️</span> Email
+        </a>
+        <a href="/" aria-label="Home Page">
+          <span class="social-icon">🏠</span> Home
+        </a>
+      </div>
     </footer>
-
-    <script src="script.js"></script>
-</body>
+    
+    <div class="gradient"></div>
+    <script src="../script.js"></script>
+  </body>
 </html>
