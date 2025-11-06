@@ -6,8 +6,26 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Chase Cole's portfolio - Software developer interested in software development, fitness, and art. Explore my projects including Duo Decide, Thread Quest, Algorithm Drills, and Spotify Webapp." />
+    <meta name="keywords" content="Chase Cole, software developer, web development, portfolio, duo decide, thread quest, algorithm drills, spotify webapp" />
+    <meta name="author" content="Chase Cole" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Chase Cole - Software Developer" />
+    <meta property="og:description" content="Portfolio showcasing my projects in software development, fitness, and art." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.cheesecoke.com/" />
+    <meta property="og:site_name" content="Chase Cole Portfolio" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Chase Cole - Software Developer" />
+    <meta name="twitter:description" content="Portfolio showcasing my projects in software development, fitness, and art." />
+    
     <link rel="stylesheet" href="./output.css" />
-    <title>Chase Cole's Website</title>
+    <title>Chase Cole - Software Developer</title>
   </head>
   <body>
     <header id="header">
@@ -16,19 +34,153 @@
     <div class="content-wrapper">
       <div class="callout">
         <h2>Welcome <span>- Current Projects</span></h2>
-        <ul>
-          <li>
-            <a href="https://www.cheesecoke.com/">cheesecoke</a>
+        <ul class="projects-list">
+          <li class="project-item" data-repo="cheesecoke/duo-decide">
+            <div class="project-header">
+              <div class="project-title-row">
+                <span class="project-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+                <a href="https://duo-decide.vercel.app/" class="project-link">Duo Decide</a>
+                <span class="status-badge status-progress">In Progress</span>
+              </div>
+              <button class="expand-btn" aria-label="Expand project details" aria-expanded="false">
+                <span class="chevron">▼</span>
+              </button>
+            </div>
+            <div class="project-meta">
+              <span class="last-updated">Loading...</span>
+            </div>
+            <div class="tech-tags">
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">React Native</span>
+              <span class="tech-tag">Supabase</span>
+            </div>
+            <div class="project-description" hidden>
+              <p>Decision-making app for partners to help make decisions. Features intuitive interface for quick decisions. Contains the options for a single vote by a partner or a poll option.</p>
+            </div>
           </li>
-          <li>
-            <a href="https://www.onerep-simplicity.com/">Onerep-Simplicity</a>
+
+          <li class="project-item" data-repo="cheesecoke/thread-quest">
+            <div class="project-header">
+              <div class="project-title-row">
+                <span class="project-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+                <a href="https://www.thread-quest.com/" class="project-link">Thread Quest</a>
+                <span class="status-badge status-live">Live</span>
+              </div>
+              <button class="expand-btn" aria-label="Expand project details" aria-expanded="false">
+                <span class="chevron">▼</span>
+              </button>
+            </div>
+            <div class="project-meta">
+              <span class="last-updated">Loading...</span>
+            </div>
+            <div class="tech-tags">
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <div class="project-description" hidden>
+              <p>Interactive web application for exploring and storing outfits. Features a search for clothes that can be saved to an inventory where the user can then make an outfit and purchase items they like.</p>
+            </div>
           </li>
-          <li>
-            <a href="https://www.thread-quest.com/">Thread-quest</a>
+
+          <li class="project-item" data-repo="cheesecoke/algorithm-drills">
+            <div class="project-header">
+              <div class="project-title-row">
+                <span class="project-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 18L22 12L16 6M8 6L2 12L8 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+                <a href="https://github.com/cheesecoke/algorithm-drills" class="project-link">Algorithm Drills</a>
+                <span class="status-badge status-progress">Active</span>
+              </div>
+              <button class="expand-btn" aria-label="Expand project details" aria-expanded="false">
+                <span class="chevron">▼</span>
+              </button>
+            </div>
+            <div class="project-meta">
+              <span class="last-updated">Loading...</span>
+            </div>
+            <div class="tech-tags">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">Algorithms</span>
+            </div>
+            <div class="project-description" hidden>
+              <p>Collection of algorithm practice problems and solutions. Great for interview preparation and coding practice.</p>
+            </div>
+          </li>
+
+          <li class="project-item" data-repo="cheesecoke/spotify-webapp">
+            <div class="project-header">
+              <div class="project-title-row">
+                <span class="project-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                    <path d="M8 14.5C9.5 15.5 11 16 13 16C15 16 16.5 15.5 18 14.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M7 11C9 12 11 12.5 13 12.5C15 12.5 17 12 19 11" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M6.5 7.5C9 8.5 11 9 13 9C15 9 17.5 8.5 19.5 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </span>
+                <a href="https://github.com/cheesecoke/spotify-webapp" class="project-link">Spotify Webapp</a>
+                <span class="status-badge status-archived">Archived</span>
+              </div>
+              <button class="expand-btn" aria-label="Expand project details" aria-expanded="false">
+                <span class="chevron">▼</span>
+              </button>
+            </div>
+            <div class="project-meta">
+              <span class="last-updated">Loading...</span>
+            </div>
+            <div class="tech-tags">
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Spotify API</span>
+            </div>
+            <div class="project-description" hidden>
+              <p>Spotify web application built as a technical interview project for Tesla. Demonstrates SDK API integration and music player functionality.</p>
+            </div>
           </li>
         </ul>
       </div>
     </div>
+    
+    <footer class="site-footer">
+      <div class="social-links">
+        <a href="https://github.com/cheesecoke" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+          <span class="social-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z" fill="currentColor"/>
+            </svg>
+          </span> GitHub
+        </a>
+        <a href="mailto:chasewcole@gmail.com" aria-label="Email Chase Cole">
+          <span class="social-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 8L10.89 13.26C11.54 13.67 12.46 13.67 13.11 13.26L21 8M5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5C3.89543 5 3 5.89543 3 7V17C3 18.1046 3.89543 19 5 19Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span> Email
+        </a>
+        <a href="https://www.chasewcole.com" target="_blank" rel="noopener noreferrer" aria-label="About Chase Cole">
+          <span class="social-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </span> About
+        </a>
+      </div>
+    </footer>
+    
     <div class="gradient"></div>
     <script src="script.js"></script>
   </body>
