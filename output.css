@@ -19,7 +19,6 @@
 .content-wrapper .callout {
   display: block;
   width: 100%;
-  max-width: 323px;
   height: auto;
   overflow: visible;
   background-color: #333;
@@ -27,6 +26,7 @@
   place-content: center;
   padding: 3rem;
   border-radius: 30px;
+  box-sizing: border-box;
   /* Enhanced shadow for depth */
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), 0 2px 8px rgba(0, 0, 0, 0.2);
   animation-name: calloutAnim;
@@ -276,6 +276,7 @@
   padding: 1.25rem;
   z-index: 10;
   border-top: 1px solid #333;
+  box-sizing: border-box;
 }
 .site-footer .social-links {
   display: flex;
